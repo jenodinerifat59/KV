@@ -181,7 +181,7 @@ body {
 
 .notes-box {
     box-shadow: 3px 3px 3px 3px rgba(54, 52, 52, 0.1);
-
+   
 }
 
 .notes-flex {
@@ -223,11 +223,8 @@ body {
     list-style : none;
     gap : 16px;
 }
-.fa-check{
-    background-color : #469165;
-    color : #FFFFFF;
-    border-radius : 50%;
-    padding : 2px 2px;
+.fa-circle-check{
+    color : #469165;
     margin-right : 6px;
 }
 .brain-li{
@@ -242,3 +239,74 @@ body {
     padding-bottom : 120px
 }
 /* ============================================ */
+.think-more{
+   background-color: #F7F6F2;
+}
+.think-more-h2{
+    font-weight : 700;
+    font-size : 40px;
+    color:#001931;
+    text-align : center;
+    padding-top : 80px
+}
+.think-more-p{
+    font-weight : 300;
+    font-size : 16px;
+    color:#627382;
+    text-align: center;
+    margin-top :16px;
+    line-height : 24px;
+    padding-bottom: 24px;
+}
+.think-more-button{
+    padding: 12.5px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+/* ========= * Footer Section * ========= */
+.footer{
+    background-color: #001931;
+}
+.footer-ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    margin-right : 40px;
+    color : #FFFFFF;
+}
+.footer-ul li a i{
+    font-size : 24px;
+    color : #FFFFFF;
+   
+}
+.footer-flex{
+    display : flex;
+    justify-content : space-between;
+    align-items :center;
+    padding-top : 120px;
+    padding : 84px ;
+}
+
+.social{
+    font-size :16px;
+    font-weight : 500;
+    color :#FFFFFF;
+    margin-bottom : 16px;
+}
+.footer-p{
+    font-size : 14px;
+    font-weight : 400;
+    color : #fbfcfd;
+    text-align : center;
+    padding-bottom : 40px;
+    padding-top : 30px;
+    border-top : 1px solid #465a6c;
+}
+
+
